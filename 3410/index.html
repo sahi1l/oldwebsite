@@ -2,27 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="lib/jquery-ui.css">
 <link rel="stylesheet" type="text/css" href="lib/index.css">
 <link rel="stylesheet" type="text/css" href="lib/red.css">
 <SCRIPT SRC="lib/jquery.js"></SCRIPT>
 <SCRIPT SRC="lib/grades.js"></SCRIPT>
-<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-
-
-<script>
-  $(function() {
-  $( "#tabs" ).tabs({
-  beforeLoad: function( event, ui ) {
-  ui.jqXHR.fail(function() {
-  ui.panel.html(
-  "Couldn't load this tab. We'll try to fix this as soon as possible. " +
-  "If this wouldn't be a demo." );
-  });
-  }
-  });
-  });
-</script>
+<SCRIPT SRC="lib/jquery-ui.js"></SCRIPT>
+<SCRIPT SRC="lib/tabs.js"></SCRIPT>
 <link href="http://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,13 +51,17 @@ Scott A. Hill, Ph.D.</DIV>
 </div>
 </div>
 </div>
-<div id="tabs">
-  <ul>
-    <li><a href="#weekly">Assignments</a></li>
-    <li><a href="#news">News</a></li>
-  </ul>
-<div id="assignments">
+<div id="tabs"><ul>
+<li><a href="#news">News</a></li>
+<li><a href="#assignments">Weekly Assignments</a></li>
+</ul><div id="news">
+<h2>News</h2><ul>
 
+<li>
+<DIV class="updated">Posted 1/5:</DIV>
+ Welcome to the class website!  Click the Syllabus button above to learn more about the class.
+</ul></div>
+<div id="assignments">
 <div id="weekly">
 <H2>Weekly Assignments</H2>
 <TABLE id="weeklyT">
@@ -92,7 +82,7 @@ Scott A. Hill, Ph.D.</DIV>
 	<TD class="quiz">&nbsp;
 	<BR>&nbsp;
 	<TD>
-	&nbsp;<BR>
+	<A HREF="Repository/M1.pdf">written</A><BR>
 	&nbsp;
 <TD>
 	&nbsp;<BR>
@@ -101,11 +91,4 @@ Scott A. Hill, Ph.D.</DIV>
 	&nbsp;<BR>
 	&nbsp;
 </TABLE></DIV>
-</DIV><div id="news"><h2>News</h2><ul>
-
-<li>
-<DIV class="updated">Posted 1/5:</DIV>
- Welcome to the class website!  Click the Syllabus button above to learn more about the class.
-</ul></div>
-</div>
-Testing!
+</div></div>

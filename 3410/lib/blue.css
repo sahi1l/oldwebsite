@@ -56,3 +56,4 @@ div#assignments table {
 #grades {
     box-shadow: 5px 5px 5px                     #ccf;
 }
+.ui-widget-header {background: #CCF;}
