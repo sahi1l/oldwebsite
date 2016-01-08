@@ -1,0 +1,61 @@
+div#middle>div {
+    background-color:                           #a23;
+}
+div.class #name {
+    background-color:                           #a23;
+}
+
+body {
+    background-color:                           #fee;
+}
+
+div#professor li:nth-child(odd){
+    background-color:                           #fdd;
+}
+
+
+div#news li:nth-child(odd)  {
+	background-color:	                        #fbb;
+}
+
+div#news li:nth-child(even) {
+	background-color:	                        #f77;
+}
+div#assignments tr>td:nth-child(even) {
+    background-color:                           #fbb;
+}
+div#assignments tr>th:nth-child(even) {
+    background-color:                           #fbb;
+}
+div.class {
+    background-color:                           #fbb;
+}
+
+tr.current td {
+    background-color:                           #faf;
+}
+tr.current td:nth-child(even) {
+    background-color:                           #dbd !important;
+}
+#syllabus {
+    border-color: red;
+}
+/*Box Shadows*/
+div.class {
+    box-shadow: 5px 5px 5px                     #daa;
+}
+div#professor {
+    box-shadow: 5px 5px 5px                     #daa;
+}
+div#news {
+    box-shadow: 5px 5px 5px                     #daa;
+}
+div#assignments table {
+    box-shadow: 5px 5px 5px                     #daa;
+}
+#syllabus {
+    box-shadow: 5px 5px 5px                     #daa;
+}
+#gradeframe {
+    box-shadow: 5px 5px 5px                     #daa;
+}

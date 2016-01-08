@@ -1,0 +1,229 @@
+h2 {font-size:150%;font-weight:400;padding-left:5px;}
+h1, h3, h4, h5, h6 {
+ margin: 0;
+ padding: 0;
+ }
+
+body {
+    /*background-color:                           #eef;*/
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top:20px;
+}
+div {
+    border: 0px solid;
+}
+/*Utoledo Header*/
+/*Keep the colors the same*/
+div#utoledo {
+    font-family: serif;
+    font-size:120%;
+    width: 100%;
+    background-color: #0A2A6D;
+    color: #FAC723;
+    padding: 2px 5px;
+    margin-top:0px;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align:center;
+}
+#utoledo a:link {color:#FAC723;}
+#utoledo a:visited {color:#FAC723;}
+
+/*Class name*/
+div.class {
+    display:inline-block;
+    float:left;
+    padding: 20px;
+    padding-left:0px;
+    padding-right:0px;
+/*    box-shadow: 5px 5px 5px                     #ccf;*/
+    margin-right:20px;
+/*    background-color:                           #bbf;*/
+    border: 1px solid;
+    min-width:350px;
+}
+div.class>div {
+    padding-left:20px;
+    padding-right:20px;
+    }
+div.class p {
+    margin: 0px;
+    padding: 0px 5px;
+    width:100%;
+}
+div.class #number {
+    font-size:300%;
+    font-weight:400;
+    padding: 0px 5px;
+}
+div.class #name {
+    font-size:150%;
+/*    background-color:                           #23f;*/
+    color:white;
+    font-family:"Shadows Into Light Two";
+}
+div.class #semester {
+    font-size: 200%;
+    padding-top: 4px;
+}
+/*Professor Name and Contact Information*/
+div#professor h2 {
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid;
+}
+div#professor {
+    display:inline-block;
+    padding:5px;
+    background-color:white;
+    text-align:center;
+/*    box-shadow: 5px 5px 5px                     #ccf;*/
+}
+div#professor ul {
+    margin-left:0px;
+    list-style-type:none;
+    padding:0px 5px;
+    margin:0px;
+}
+div#professor li {
+}
+div#myname {
+    font-size:170%;
+    text-align:center;
+    margin:0px;
+    font-weight: 400;
+}
+div#professor li {
+    padding:2px;text-align:right;
+}
+div#professor li:nth-child(odd){
+/*    background-color:                           #ddf;*/
+}
+div#professor b {
+    float:left;padding-right:10px;
+}
+div#professor b {after:":"}
+/*Middle row*/
+div#middle {
+    display:inline;
+}
+div#middle>div {
+/*    background-color:#23F;*/
+    border-radius: 25px;
+    color:white;
+}
+#syllabus{
+    display: inline;
+    padding: 5px 15px;
+    font-size:200%;
+    margin-right:15px;
+    margin-left:15px;
+    margin-bottom:10px;
+    border: 3px solid black !important;
+    /*box-shadow*/
+}
+#syllabus a:hover {
+    text-decoration:underline;
+}
+#syllabus a:link {
+    color:white;
+    text-decoration:none;
+}
+#syllabus a:visited {
+    color:white;
+    text-decoration:none;
+}
+#gradeframe {
+    padding: 15px 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    display:inline-block;
+    margin-bottom:10px;
+    /*box-shadow*/
+}
+#gradeframe>h2 {
+    font-size:200%;
+    display:inline;
+    font-weight:300;
+}
+/*News box*/
+div#news {
+    float: left;
+    display:table-column;
+    width:400px;
+    margin-right:20px;
+    border:1px solid;
+/*    box-shadow: 5px 5px 5px                     #ccf;*/
+
+}
+div#news h1 {
+    margin:10px;
+}
+div#news li {
+    margin:0px;
+    padding:10px 20px;
+}
+div#news ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+div#news li:nth-child(odd)  {
+/*	background-color:	                        #ccf;*/
+}
+div#news li:nth-child(even) {
+/*	background-color:	                        #bbf;*/
+}
+.updated {font-size:75%;color:grey;font-style:italic}
+
+/*Assignments*/
+div#assignments {
+    display:inline-block;
+
+}
+div#assignments table {
+    border-collapse:collapse;
+    border:0px;
+    font-size:80%;
+/*    box-shadow: 5px 5px 5px                     #ccf;*/
+}
+div#assignments th {
+    padding: 2px;
+    border:1px solid;
+}
+div#assignments td {
+    padding: 2px;
+    text-align:center;
+    border-color: black;
+}
+div#assignments tr>td:nth-child(even) {
+/*    background-color:                           #bbf;*/
+}
+tr.current td {
+/*    background-color:                           #aff;*/
+}
+tr.current td:nth-child(even) {
+/*    background-color:                           #bdf !important*/
+}
+.quiz {
+    border-right:3px solid !important;
+}
+#grades td {
+    color: white;
+    padding-right:1px;
+}
+#assignments {float:right;padding-right:10px;}
+/*iPhone*/
+@media (max-width:700px) {
+    div#news {width:100%;}
+    div.class {width:100%;padding-left:0px;border:0px;}
+    div#professor {width:100%;}
+    #assignments {float:none;padding-right:0px;}
+}
+@media (max-width:1152px) {
+    #assignments {float:none;}
+}
+
