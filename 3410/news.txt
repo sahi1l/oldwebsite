@@ -1,2 +1,2 @@
 1/5: Welcome to the class website!  Click the Syllabus button above to learn more about the class.
-1/9: Here is a diffusion demo.
+1/9: Here is a [Diffusion/index.html diffusion] demo we'll see in class.
