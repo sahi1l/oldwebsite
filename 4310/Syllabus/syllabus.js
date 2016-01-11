@@ -3,7 +3,7 @@ var opensymbol="&#9660;"
 var closedsymbol="&#9654;"
 $(function(){
 var cno=$("#courseNumber").html()
-$("#toc").append('<div id="courseNumber">'+cno.slice(0,cno.indexOf("<"))+'</div>')
+$("#toc").append('<div id="courseNumber"><a href="../index.html">'+cno.slice(0,cno.indexOf("<"))+'</a></div>')
 $("#toc").append("<ul></ul>")
 $("h3>a").each(function(i,el){
 var s=$(this).attr("name");
