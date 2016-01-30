@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="lib/index.css">
 <link rel="stylesheet" type="text/css" href="lib/blue.css">
 <SCRIPT SRC="lib/jquery.js"></SCRIPT>
-<SCRIPT SRC="lib/grades.js"></SCRIPT>
+<!--<SCRIPT SRC="lib/grades.js"></SCRIPT>-->
 <SCRIPT SRC="lib/jquery-ui.js"></SCRIPT>
 <SCRIPT SRC="lib/tabs.js"></SCRIPT>
 <link href="http://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
@@ -43,18 +43,20 @@ Scott A. Hill, Ph.D.</DIV>
 <br/>
 <div id="middle">
 <div id="syllabus"> <a href="Syllabus/index.html">Syllabus</a></div>
-<div id="gradeframe">
+<!--<div id="gradeframe">
   <h2>Grades: </h2>
   <label for="gradeid"> Enter your grade ID:</label>
   <INPUT TYPE="text" size=4 name="id" id="gradeid">
   <BUTTON onclick="GetGrade()">Get grades</BUTTON>
   <BR/><DIV id="grades"></DIV>
 </div>
+-->
 </div>
 </div>
-<div id="tabs"><ul>
+<div style="margin-top: 20px" id="tabs"><ul>
 <li><a href="#news">News</a></li>
 <li><a href="#assignments">Weekly Assignments</a></li>
+<li><a href="#grades">Grades</a></li>
 </ul><div id="news">
 <h2>News</h2><ul>
 
@@ -147,4 +149,6 @@ Scott A. Hill, Ph.D.</DIV>
 	<A HREF="Repository/F1.pdf">written</A><BR>
 	<A HREF="Repository/F1.mp3">audio</A>
 </TABLE></DIV>
-</div></div>
+</div>
+<div id="grades">
+<iframe width="100%" height="400px" src="http://sahill.nfshost.com/Grades/4310/index.html"></iframe></div></div>
