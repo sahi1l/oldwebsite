@@ -1,8 +1,8 @@
 1/11	Diffusion and Heat	1	n/a	n/a
 1/18	Equipartition Theorem	1	HW1	Quiz1
 1/25	Ideal Gas; Counting	2	HW2	Quiz2
+2/1	Models			
 
-2/1				
 2/8				
 2/15				
 2/22				

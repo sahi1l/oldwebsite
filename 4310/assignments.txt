@@ -1,8 +1,8 @@
 1/11	Stern-Gerlach and Kets	Mc1	HW1	n/a
 1/18	Matrices and Operators	Mc1,2	HW2	n/a
 1/25	Measurement	Mc2	HW3	n/a
+2/1	Schrodinger's Equation			
 
-2/1				
 2/8				
 2/15				
 2/22				
