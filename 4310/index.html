@@ -7,23 +7,9 @@
 <link rel="stylesheet" type="text/css" href="lib/index.css">
 <link rel="stylesheet" type="text/css" href="lib/blue.css">
 <SCRIPT SRC="lib/jquery.js"></SCRIPT>
-<SCRIPT SRC="lib/js-cookie.js"></SCRIPT>
 <!--<SCRIPT SRC="lib/grades.js"></SCRIPT>-->
 <SCRIPT SRC="lib/jquery-ui.js"></SCRIPT>
 <SCRIPT SRC="lib/tabs.js"></SCRIPT>
-
-<script>
-$(function(){
-//get or set cookie
-var tab=Cookies.get("tab");
-if(tab===undefined){tab=0;}
-$("#tabs").tabs({active:tab,
-activate:function(){Cookies.set("tab",$("#tabs").tabs("option","active"),{expires:1});}
-});
-});
-</script>
-
-
 <link href="http://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
