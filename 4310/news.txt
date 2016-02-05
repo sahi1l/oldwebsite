@@ -1,4 +1,4 @@
-2/2: Homework 3 is now posted.  Sorry for not getting it up last night.
+2/5: I made an error in the notes about the uncertainty principle: there should be absolute value signs around the right-hand side, like this: ∆A∆B ≥ |(1/2i) <[A,B]>|. I've added a correction to the online notes. 
 2/2: I just looked it up, and the uncertainty principle we mentioned in class is called the "Robertson uncertainty principle".  So thank you, Howard P. Robertson!
 2/1: Sorry, no recording for Monday Week 4. :(
 2/1: Starting now, homework will be due on Mondays instead of Fridays.
