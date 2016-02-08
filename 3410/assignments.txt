@@ -2,8 +2,8 @@
 1/18	Equipartition Theorem	1	HW1	Quiz1
 1/25	Ideal Gas; Counting	2	HW2	Quiz2
 2/1	Models	2	HW3	Quiz3
+2/8	Entropy	2	HW4	Quiz4
 
-2/8				
 2/15				
 2/22				
 2/29				
