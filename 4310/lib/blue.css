@@ -14,11 +14,11 @@ div#professor li:nth-child(odd){
 }
 
 
-div#news li:nth-child(odd)  {
+div#news>ul>li:nth-child(odd)  {
 	background-color:	                        #ccf;
 }
 
-div#news li:nth-child(even) {
+div#news>ul>li:nth-child(even) {
 	background-color:	                        #bbf;
 }
 div#assignments tr>td:nth-child(even) {

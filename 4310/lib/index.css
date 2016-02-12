@@ -161,19 +161,19 @@ div#news {
 div#news h1 {
     margin:10px;
 }
-div#news li {
+div#news>ul>li {
     margin:0px;
     padding:10px 20px;
 }
-div#news ul {
+div#news>ul {
     list-style-type:none;
     margin:0px;
     padding:0px;
 }
-div#news li:nth-child(odd)  {
+div#news>ul>li:nth-child(odd)  {
 /*	background-color:	                        #ccf;*/
 }
-div#news li:nth-child(even) {
+div#news>ul>li:nth-child(even) {
 /*	background-color:	                        #bbf;*/
 }
 .updated {font-size:75%;color:grey;font-style:italic}
