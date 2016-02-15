@@ -1,3 +1,4 @@
+2/15: Exam 1 is tentatively scheduled for Friday, February 26th.
 2/12:  Here's the schedule of the sections of Griffiths you should have prepared for next week's classes: <ul><li>For Monday: 2.3 (harmonic oscillators) and 2.4 (free particle) <li>Wednesday: 2.4 (free particle) <li>Friday: 2.5  (delta-function potential)</ul> That doesn't mean we'll <i>cover</i> them on those days, but you should be prepared.
 2/8: You may turn in HW3 on Wednesday without penalty.
 2/8: Due to some bizarre technical glitch that I don't understand, the audio for Monday's class was not recorded.  My apologies for the inconvenience.
