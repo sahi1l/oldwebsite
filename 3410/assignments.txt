@@ -3,8 +3,8 @@
 1/25	Ideal Gas; Counting	2	HW2	Quiz2
 2/1	Models	2	HW3	Quiz3
 2/8	Entropy	2	HW4	Quiz4
+2/15	Equilibrium and Entropy	3	HW5	Quiz5
 
-2/15				
 2/22				
 2/29				
 3/14				
