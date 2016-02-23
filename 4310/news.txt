@@ -1,3 +1,4 @@
+2/23: I noticed an error on page 5 of the review outline; I forgot the absolute value signs in the uncertainty principle (again).  I'll write the correction on the board tomorrow before the exam.
 2/22: I will accept HW5 through February 29th, as I (accidentally) put on the top of the assignment.
 2/15: Exam 1 is scheduled for Wednesday, February 24th.  It will be open notes, and cover the three chapters in McIntyre.  I will post a review/topic outline shortly. 
 2/12:  Here's the schedule of the sections of Griffiths you should have prepared for next week's classes: <ul><li>For Monday: 2.3 (harmonic oscillators) and 2.4 (free particle) <li>Wednesday: 2.4 (free particle) <li>Friday: 2.5  (delta-function potential)</ul> That doesn't mean we'll <i>cover</i> them on those days, but you should be prepared.
