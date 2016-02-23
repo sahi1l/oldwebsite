@@ -4,8 +4,8 @@
 2/1	Models	2	HW3	Quiz3
 2/8	Entropy	2	HW4	Quiz4
 2/15	Equilibrium and Entropy	3	HW5	Quiz5
+2/22	Strange Systems	3	n/a	Quiz6
 
-2/22				
 2/29				
 3/14				
 3/21				
