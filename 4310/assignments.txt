@@ -3,8 +3,8 @@
 1/25	Measurement	Mc2		n/a
 2/1	Schrodinger's Equation	Mc3	HW3	n/a
 2/8	Different Potentials	G2	HW4	n/a
-2/15	Harmonic Oscillator	G2	HW5	
-2/22				
+2/15	Harmonic Oscillator	G2	HW5	n/a
+2/22	Bound and Scattering States	G2	n/a	n/a
 
 2/29				
 3/14				
