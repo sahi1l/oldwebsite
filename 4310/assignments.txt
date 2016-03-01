@@ -5,7 +5,7 @@
 2/8	Different Potentials	G2	HW4	n/a
 2/15	Harmonic Oscillator	G2	HW5	n/a
 2/22	Bound and Scattering States	G2	n/a	Exam1
-2/29	Delta and FInite Square Wells	G2	HW6	n/a
+2/29	Delta and Finite Square Wells	G2	HW6	n/a
 
 3/14				
 3/21				
