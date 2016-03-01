@@ -5,7 +5,7 @@
 2/8	Entropy	2	HW4	Quiz4
 2/15	Equilibrium and Entropy	3	HW5	Quiz5
 2/22	Strange Systems	3	n/a	Quiz6
-2/29	Thermodynamic Potentials	5	HW6	n/a
+2/29	Thermodynamic Potentials	5	HW6	Exam1
 
 3/14				
 3/21				
