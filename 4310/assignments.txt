@@ -6,7 +6,7 @@
 2/15	Harmonic Oscillator	G2	HW5	n/a
 2/22	Bound and Scattering States	G2	n/a	Exam1
 2/29	Delta and Finite Square Wells	G2	HW6	n/a
-3/14				
+3/14	Spherical Well	G4	HW7	n/a
 
 3/21				
 3/28				
