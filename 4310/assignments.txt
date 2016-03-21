@@ -7,8 +7,8 @@
 2/22	Bound and Scattering States	G2	n/a	Exam1
 2/29	Delta and Finite Square Wells	G2	HW6	n/a
 3/14	Spherical Well	G4	HW7	n/a
+3/21	Hydrogen Atom; Angular Momentum	G4	HW8	
 
-3/21				
 3/28				
 4/4				
 4/11				
