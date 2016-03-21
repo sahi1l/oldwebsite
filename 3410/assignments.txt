@@ -7,8 +7,8 @@
 2/22	Strange Systems	3	n/a	Quiz6
 2/29	Thermodynamic Potentials	5	HW6	Exam1
 3/14	Phase Diagrams	5	HW7	Quiz7
+3/21	Boltzmann Statistics	6	HW8	Quiz8
 
-3/21				
 3/28				
 4/4				
 4/11				
