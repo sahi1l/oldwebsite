@@ -1,0 +1,69 @@
+<html>
+<head>
+<script src="jquery.js"></script>
+<script src="raphael.js"></script>
+<script src="grid.js"></script>
+<style>
+button.highlighted {
+border: 2px solid black;
+}
+text.dipole {
+text-anchor:middle;
+}
+button {
+font-size:24px;
+font-family: Times;
+}
+.arrow {
+stroke-width:2px;
+}
+.slow {
+animation: dash 60s linear;
+animation-iteration-count: infinite;
+}
+.normal {
+animation: dash 10s linear;
+animation-iteration-count: infinite;
+
+}
+.fast {
+animation: dash 5s linear;
+animation-iteration-count: infinite;
+}
+
+.square {
+/*animation: dash 10s linear;*/
+/*animation-iteration-count:infinite;*/
+stroke-dasharray: 5;
+ fill:white;
+ stroke: black;
+ stroke-width:2;
+}
+.axis {
+stroke-width:2px;
+stroke:black;
+}
+.axislbl {
+font-size:36px;
+font-style:italic;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 360;
+  }
+}
+</style>
+<div id="canvas">
+</div>
+<table>
+<tr>
+<td><button id="equal" onclick="equal()">&nabla;<I>M</i> = 0</button>
+<td>
+<button id="Vp" onclick="gradV(1)"><i>&part;<sub class="x">x</sub>M<sub class="z">z</sub></i> &gt; 0</button><br>
+<button id="Vm" onclick="gradV(-1)"><i>&part;<sub class="x">x</sub>M<sub class="z">z</sub></i> &lt; 0</button>
+<td>
+<button id="Hp" onclick="gradH(1)"><i>&part;<sub class="y">y</sub>M<sub class="z">z</sub></i> &gt; 0</button><br>
+<button id="Hm" onclick="gradH(-1)"><i>&part;<sub class="y">y</sub>M<sub class="z">z</sub></i> &lt; 0</button>
+</table>
+
+</html>
