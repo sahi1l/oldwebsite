@@ -9,7 +9,7 @@
 3/14	Phase Diagrams	5	HW7	Quiz7
 3/21	Boltzmann Statistics	6	HW8	Quiz8
 3/28	Heat Engines and Refrigerators	4	HW9	n/a
-4/4	More Boltzmann Statistics	6	HW10	Quiz9
+4/4	More Boltzmann Statistics	6	n/a	Quiz9
 
 4/11				
 4/18				
