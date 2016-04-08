@@ -1,3 +1,4 @@
+4/7: There was an error in the solution of HW8, problem 2e: I said there were 3 microstates with E=0.01eV instead of two.  The version online has been corrected and is labelled "version 2.0"
 4/7: There is no HW10 this week, so you can prepare for the exam.  I will post a new assignment on Monday, due the following Monday.
 4/7: Here is a [Exam2Outline.pdf review outline] for Exam 2.  I will put up some sample exam questions soon.  Let me know if there's anything on the outline that is confusing, or if there's anything you think I missed.
 4/6: Exam 2 will be on Wednesday, April 13th.  It will cover Chapters 3-5.
