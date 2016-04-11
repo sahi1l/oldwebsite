@@ -10,8 +10,8 @@
 3/21	Boltzmann Statistics	6	HW8	Quiz8
 3/28	Heat Engines and Refrigerators	4	HW9	n/a
 4/4	More Boltzmann Statistics	6	n/a	Quiz9
+4/11	Gibbs Statistics	7	HW10	Exam2
 
-4/11				
 4/18				
 4/25				
 5/2				
