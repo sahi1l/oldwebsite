@@ -1,5 +1,6 @@
-4/13: Exam 2 will be given on Friday, April 15th.  It will be a take-home exam, due the following Friday.  You will be able to refer to your book, your notes, and use ymbolic algebra software like Mathematica or WolframAlpha; other uses of the Internet are forbidden.  It will cover Chapters 2, 4, and a bit of 3; see the review outline (below) for details.
-4/13: Here is a [Exam2Outline.pdf review outline] for Exam 2.  You can ignore the bit about Chapter 5.
+4/15: Here is the [Exam2.pdf Exam 2] if you need a copy.
+#4/13: Exam 2 will be given on Friday, April 15th.  It will be a take-home exam, due the following Friday.  You will be able to refer to your book, your notes, and use ymbolic algebra software like Mathematica or WolframAlpha; other uses of the Internet are forbidden.  It will cover Chapters 2, 4, and a bit of 3; see the review outline (below) for details.
+#4/13: Here is a [Exam2Outline.pdf review outline] for Exam 2.  You can ignore the bit about Chapter 5.
 4/8: I've posted a fairly short (I hope) [HW10.pdf HW10] which will be due next Friday.
 3/28: We will have Exam 2 in the second week of April (11th, 13th, or 15th), covering the material in Griffiths so far (I will post a review outline next week).    If there is a day of that week that you <b>don't</b> want the exam to be (due to other exams, projects, etc), please email me before April 6th which is when I will announce the date of the exam.
 3/25: We will not have class next Wednesday (3/30), Friday (4/1), or the following Monday. We <b>will</b> have class on the next two Tuesdays at <b>9am</b> in the 4th floor conference room (4027).  I will not have office hours on the days we don't have class, but I will add office hours on the next two Tuesdays at 10am.
