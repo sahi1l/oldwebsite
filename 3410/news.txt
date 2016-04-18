@@ -1,3 +1,4 @@
+4/17: The grades for Exam 2 are now available.
 4/15: There <b>is</b> a homework assignment posted, but it is due on <b>Wednesday</b> of next week (Week 14).
 4/9: Here is a [Exam2Outline.pdf review outline] for Exam 2 and a [SampleExam2.pdf sample exam] with [SampleExam2S.pdf solutions]. Let me know if there's anything on the outline that is confusing, or if there's anything you think I missed.
 4/7: There was an error in the solution of HW8, problem 2e: I said there were 3 microstates with E=0.01eV instead of two.  The version online has been corrected and is labelled "version 2.0"
