@@ -11,7 +11,7 @@
 3/28	Angular Momentum; Identical Particles	G5	HW9	n/a
 4/4	Atoms and Solids	G5	HW10	n/a
 4/11	Quantum Stat Mech;Entanglement	G5,Mc4	HW11	Exam2
+4/18	Time-Independent Perturbations;Variational Principle;WKB Approximation	6,7,8	HW12	n/a
 
-4/18				
 4/25				
 5/2				
