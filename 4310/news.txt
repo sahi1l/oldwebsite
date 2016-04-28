@@ -1,3 +1,4 @@
+4/27: Here is a brief [Exam3Outline.pdf outline] of new material to be covered on the final exam.
 4/23: The [Exam2S.pdf solutions] to Exam 2 are now available.  Let me know if you have any questions or see any errors.
 4/22: I've posted one more [HW11.pdf homework assignment] which will be due on Friday. 
 4/18: In problem 13 on the exam, the particle is in the up state at one moment in time, and I want you to calculate the derivative at that moment.  The state itself is actually precessing around the x axis with time (not that you need to know that, but just to say that the answer isn't as trivial as saying "Hey, <Sy> for the up-state is zero, therefore d<Sy>/dt is zero!")
