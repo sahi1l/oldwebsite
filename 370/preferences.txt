@@ -1,5 +1,5 @@
 Name: Modern Physics
-Number: Physics 307
+Number: Physics 370
 Semester: Fall 2016
 Theme: green
 Days: Monday, Wednesday, Friday
