@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="stylesheet" href="lib/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="lib/index.css">
+<link rel="stylesheet" type="text/css" href="lib/green.css">
+<SCRIPT SRC="lib/jquery.js"></SCRIPT>
+<SCRIPT SRC="lib/js-cookie.js"></SCRIPT>
+<!--<SCRIPT SRC="lib/grades.js"></SCRIPT>-->
+<SCRIPT SRC="lib/jquery-ui.js"></SCRIPT>
+<SCRIPT SRC="lib/tabs.js"></SCRIPT>
+
+<script>
+$(function(){
+//get or set cookie
+var tab=Cookies.get("tab");
+if(tab===undefined){tab=0;}
+$("#tabs").tabs({active:tab,
+activate:function(){Cookies.set("tab",$("#tabs").tabs("option","active"),{expires:1});}
+});
+});
+</script>
+
+<link href="http://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adrian College Physics Physics 307, $(semester)s</title>
+<body>
+<DIV id="adrian">
+<A HREF="http://www.adrian.edu">Adrian&nbsp;College</A>
+ <img src="img/adrianlogo.gif" alt="" height="20" style="vertical-align:middle"/>
+<A HREF="http://adrian.edu/academics/academic-departments/physics/">
+  Department&nbsp;of&nbsp;Physics
+</A>
+</DIV>
+<div style="display:inline-block;">
+<div class="class">
+<h1 id="number">Physics 307</h1>
+<p id="name">Modern Physics</p>
+<p id="semester">Fall 2016</p>
+</div>
+<DIV id="professor">
+<h2>Instructor</h2>
+<DIV id="myname">Scott A. Hill, Ph.D.</DIV>
+<DIV id="title">Assistant Professor of Physics</div>
+  <UL>
+  <LI><B>Phone</B> (517) 265-5161
+  <LI><B>SMS</B> (567) 343-2284
+  <LI><B>Email</B> shill@adrian
+  <LI><B>AIM</B> doogadgit
+  <LI><B>Google Chat</B> physhill
+  <LI><B>Office</B> Peelle 2xx
+</UL>
+</DIV>
+<br/>
+<div id="middle">
+<div id="syllabus"> <a href="Syllabus/index.html">Syllabus</a></div>
+<!--<div id="gradeframe">
+  <h2>Grades: </h2>
+  <label for="gradeid"> Enter your grade ID:</label>
+  <INPUT TYPE="text" size=4 name="id" id="gradeid">
+  <BUTTON onclick="GetGrade()">Get grades</BUTTON>
+  <BR/><DIV id="grades"></DIV>
+</div>
+-->
+</div>
+</div>
+<div style="margin-top: 20px" id="tabs"><ul>
+<li><a href="#news">News</a></li>
+<li><a href="#assignments">Weekly Assignments</a></li>
+<li><a href="#grades">Grades</a></li>
+</ul><div id="news">
+<h2>News</h2><ul>
+
+</ul></div>
+<div id="assignments">
+<div id="weekly">
+<H2>Weekly Assignments</H2>
+<TABLE id="weeklyT">
+<TR><TH COLSPAN=2>Week<TH ROWSPAN=2>Topics<BR>Discussed
+<TH ROWSPAN=2>Chapters
+<TH ROWSPAN=2>Homework<BR>
+<TH ROWSPAN=2 class="quiz">Quiz/<BR>Exam<BR>
+<TH COLSPAN=3>Class Notes
+<TR><TH>#<TH>Starting
+<TH>Monday
+<TH>Wednesday
+<TH>Friday<TR><TD class="weeknumber">16
+<TD class="date">12/5
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">15
+<TD class="date">11/28
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">14
+<TD class="date">11/21
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">13
+<TD class="date">11/14
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">12
+<TD class="date">11/7
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">11
+<TD class="date">10/31
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">10
+<TD class="date">10/24
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">9
+<TD class="date">10/17
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">8
+<TD class="date">10/10
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">7
+<TD class="date">10/3
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">6
+<TD class="date">9/26
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">5
+<TD class="date">9/19
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">4
+<TD class="date">9/12
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">3
+<TD class="date">9/5
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TR><TD class="weeknumber">2
+<TD class="date">8/29
+<TD class="topic">	<TD class="chapter">
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<!--1,1--><TR class="current"><TD class="weeknumber">1
+<TD class="date">8/22
+<TD class="topic">Special Relativity	<TD class="chapter">1
+
+<TD class="homework">&nbsp;
+	<BR>&nbsp;
+	<TD class="quiz">&nbsp;
+	<BR>&nbsp;
+	<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+<TD>
+	&nbsp;<BR>
+	&nbsp;
+</TABLE></DIV>
+</div>
+<div id="grades">
+<iframe width="100%" height="400px" src="http://sahill.nfshost.com/Grades/370/index.html"></iframe></div></div>
