@@ -1,0 +1,6 @@
+Name: Introductory Physics I
+Number: Physics 101
+Semester: Fall 2016
+Theme: blue
+Days: Monday, Wednesday, Friday
+
