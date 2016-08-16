@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <link rel="icon" type="image/png" href="../favicon.png" />
@@ -7,38 +7,35 @@
 rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,900'
 rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
 <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">-->
 <link rel="stylesheet" href="syllabus.css">
+<link rel="stylesheet" href="../lib/color.css">
 <script src="../lib/jquery.js"></script>
 <!--<script src="http://code.jquery.com/jquery-1.10.2.js"></script>-->
 <!--<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
 <script src="syllabus.js"></script>
 <title>Physics 370 Syllabus, Fall 2016</title>
-<style>
-@media screen {
-#courseName {
-background-color: #080; color: white;
-}
-body {background-color:#eee8e8;}
-
-}
-</style>
 <div id="toc"><img src="https://c288801.ssl.cf1.rackcdn.com/adrian-college/logo.png"
 id="logo"></div></div>
+
+<body class="Syllabus">
+<!--ADRIAN HEADER-->
+<link rel="stylesheet" type="text/css" href="../lib/adrian.css">
 <DIV id="adrian">
-<A HREF="http://www.adrian.edu">Adrian&nbsp;College</A>
- <img src="img/adrianlogo.gif" alt="" height="20" style="vertical-align:middle"/>
-<A HREF="http://adrian.edu/academics/academic-departments/physics/">
+<A HREF="http://www.adrian.edu" id="adriancollege">Adrian&nbsp;College</A>
+<A HREF="http://adrian.edu/academics/academic-departments/physics/" id="deptphysics">
   Department&nbsp;of&nbsp;Physics
 </A>
 </DIV>
-<div style="height:50px;">
-<!--<h2 id="university">Adrian College</h2>
-<h2 id="department">Department of Physics</h2>-->
+<!--END ADRIAN HEADER-->
+
+
+<div style="height:70px;">
 <h2 id="courseNumber" class="tbd">Physics 370</h2>
 <h1 id="courseName" class="tbd">Modern Physics</h1>
 <h2>Fall 2016</h2>
-<h2><b>MWF 3-3:50pm in Peelle 2xx</b></h2>
+<h2><b>MWF 3-3:50pm in Peelle 214</b></h2>
 <div id="accordion">
   <h3><a name="Instructor">Instructor</a></h3>
   <div class="section" style="vertical-align:middle">
@@ -53,7 +50,7 @@ id="logo"></div></div>
 <dt>Email</dt> <dd>shill@adrian.edu</dd>
     <dt>Instant<br/>Messaging</dt> <dd>doogadgit (AIM)<br/> physhill (Google
       Chat)<br/>567-343-2284 (SMS)</dd>
-    <dt>Phone</dt> <dd>(517) 265-5161</dd>
+    <dt>Phone</dt> <dd>(517) 265-5161 <b>x4578</b></dd>
     <dt>Office Location</dt> <dd>Peelle 208</dd>
       <dt>Office Hours</dt> <dd>tbd</dd>
     </div>
@@ -64,9 +61,24 @@ id="logo"></div></div>
   </dl>
     </div>
 </span>
-<h3><a name="Description">Course/Catalog Description</a></h3>
+<h3><a name="Description">Description</a></h3>
 <div class="section">
-  An introduction to the fundamentals of modern physics.  Topics include special relativity, quantum theory, atomic physics, statistical physics, condensed-matter physics, nuclear structure, and elementary particles. 
+<p><i>An introduction to the fundamentals of modern physics.  Topics
+  include special relativity, quantum theory, atomic physics,
+  statistical physics, condensed-matter physics, nuclear structure,
+  and elementary particles.</i> (Catalog)</p>
+  <p>"Modern" is a bit of a misnomer here: we're talking about physics
+  largely discovered in the beginning of the 20th century (relativity,
+  quantum mechanics) or even earlier (statistical physics).  This is a
+  bit of an upper-level "survey" course, and while there will be
+  advanced mathematics, the emphasis will be on conceptual
+  understanding of a variety of phenomena.  Well ok, "understanding"
+  might be a bit too strong when it comes to quantum mechanics...</p>
+  <p><i>“It is often stated that of all the theories proposed in this
+  century, the silliest is quantum theory. In fact, some say that the
+  only thing that quantum theory has going for it is that it is
+  unquestionably correct.”</i> --Michio Kaku, <i>Hyperspace</i>
+  
 </div>
 
 <!--
@@ -76,13 +88,19 @@ id="logo"></div></div>
 -->
 <h3><a name="Prereqs">Prerequisites</a></h3>
 <div class="section">
-  <b>PHYS 206</b>: (General Physics II)</br>
-  <b>MATH 215</b> (Calculus and Analytic Geometry III) <i>or</i> <b>MATH 305</b>
-  (Differential Equations)
+  <span style="padding-left:10px">This class builds on topics from
+  introductory physics in a calculus-based setting.  You are expected
+  to be comfortable with partial derivatives and multiple integrals.
+  Prerequisites of the course are</span>
+  <ul>
+  <li><b>PHYS 206</b>: (General Physics II)
+  <li><b>MATH 215</b> (Calculus and Analytic Geometry III) <br/><u>or</u> <b>MATH 305</b>
+    (Differential Equations)
+    </ul>
 </div>
 
 
-<h3><a name="Objectives">Student Learning Objectives</a></h3>
+<h3><a name="Objectives">Learning Objectives</a></h3>
 <div class="section">
 On successful completion of this course, you will be able to do the
   following:
@@ -167,7 +185,7 @@ and give examples of when they are violated.
   <br clear="right"/>
 </div>
 
-<h3><a name="Tech">Technology Requirements</a></h3>
+<h3><a name="Website">Website</a></h3>
 <div class="section optional">
   Class assignments, solutions, and news will be posted
   on the <b>class website</b>: <a
@@ -202,7 +220,8 @@ Policy Statement on Non-Discrimination on the basis of Disability
   Weekly ten-minute quizzes will be given at the beginning of class on most
   <b>Fridays</b>, on material covered since the previous quiz.
   Quizzes cannot be made up, though they may be excused for valid
-  reason (see above). The two lowest quiz grades will be dropped.
+  reason (see <a href="#excused_absences">"Excused Absences"</a> under
+  Policies.). The two lowest quiz grades will be dropped.
   Quizzes will consist of 6 questions, each worth one point, and you get 4
   points just for showing up.
   <li><h4>Midterms (2 x 20%)</h4>
@@ -210,13 +229,35 @@ Policy Statement on Non-Discrimination on the basis of Disability
   closed-notes, but students are permitted two sheets of paper, on
   which they may write or print or type or draw anything they choose,
   front and back.  Calculators are permitted (nay, required).  The
-  exact dates are to be determined.  Midterm dates are flexible, and I am happy to take
-  requests (e.g. to avoid a big exam or project in another class).
+  exact dates are to be determined.  Midterm dates are flexible, and
+  if you have a big exam or project in another class, we can talk
+  about how to avoid it.
 
-<li><h4>Final Exam:</h4> The final exam will be <i>open book</i> and <i>open
+<li><h4>Final Exam (20%):</h4> The final exam will be <i>open book</i> and <i>open
     notes</i>, and will be comprehensive, with an emphasis on the
     material not covered on the previous two exams.
 </ul>
+<table class="gradescale2">
+  <caption><h4>Grade Scale</h4><br/>The minimum percentage
+  required for each letter grade; do not assume that grades are
+  rounded up.<br/></caption>
+  <tr><td><td>
+  <td>B+<td>87%
+  <td>C+<td>77%
+  <td>D+<td>67%
+    <tr>
+  <td>A<td>92%
+  <td>B<td>82%
+  <td>C<td>72%
+  <td>D<td>62%
+<tr>
+  <td>A-<td>90%
+  <td>B-<td>80%
+  <td>C-<td>70%
+  <td>D-<td>60%
+    </table>
+  </table>
+
 <table class="gradescale">
   <caption><h4>Grade Scale</h4></caption>
   <tr>
@@ -240,92 +281,175 @@ Policy Statement on Non-Discrimination on the basis of Disability
   rounded up.</i> </div>-->
 </div>
 
-<h3 class="ongoing"><a name="Policies">Academic Policies and Course Expectations</a></h3>
+<h3 class="ongoing"><a name="Excuses">Excused Absences</a></h3>
 <div class="section">
-  <h4>Excused Absences</h4>
-  I permit students to make up work for the following reasons:
-<ul>
-<li> personal emergencies (personal illness, illness of a dependent, or death in the family);
-<li> religious observances that prevent the student from attending class;
-<li> college-sponsored activities, approved by the appropriate authority;
-<li> government-required activities (such as jury duty or military service)
-</ul>
-The following conditions must also hold:
-<ul>
-<li> the student contacts the instructor <i>before the class begins</i>, unless this was demonstrably impossible, using one of the following mechanisms: written note, email, telephone, or IM.  When feasible, it is better to use two communication mechanisms, as the student is responsible for failed communications (e.g. wrong number, lost email, etc).  Note that telling me in person about an absence is <i>not</i> acceptable, as I am responsible for over a hundred students and can't easily keep track of you all.
-<li> the instructor is provided with acceptable documentation (e.g., a note from a doctor in the case of illness, a note from a coach in case of an athletic event, a program from a funeral or religious event, etc).
-</ul>
-Quizzes missed due to excused absences will simply be excluded from
-the student's quiz average; nor will they count as one of the
-student's ``dropped'' quiz grades.  Missed exams may be made up during
-office hours as a written or oral exam, at the instructor's discretion.  Homework will be accepted late without penalty in these circumstances, with a revised due date determined by the instructor (with student input).
-<h4>Distractions:</h4> Mobile phones and other noisemakers must be silenced during lecture; violators will be mocked.  If you must take or make a phone call, please retire to the hallway to do so.  You may not use a cell phone for any reason during exams (including as a calculator).  If you <i>must</i> eat, play games, or engage in any other behavior which is mildly distracting to your fellow students or the instructor, please sit in the back of the classroom.  The instructor will ask you to stop or leave if you are too distracting.  If <B>you</B> find another student's behavior to be distracting, and don't want to confront her or him yourself,  please let the instructor know.</li>
-
-<h4>Tardiness:</h4>
-If you are <i>late</i> for an exam, come anyway; I might be able to
-accommodate you, provided that you arrive before the end of the exam
-period.
-<h4>Withdrawal:</h4>
-TBD
-<!--<ul>
-  <li>The deadline to <b>drop</b> this course is <u>January 25th</u>.
-  (It will not show up on your transcript in that case.)
-  <li>You may <b>withdraw</b> from this course at any time before
-  <u>March 25th</u>. (The class will be listed on your transcript with
-  a grade of W.)
-</ul>
-Both are done by the student through the Registrar; the instructor cannot drop or withdraw students (although he would appreciate being notified of the withdrawal).  Incompletes are only given in rare circumstances.-->
-<h4>Extra Credit:</h4> The only extra credit available in class is the
-occasional extra credit problem on an exam or homework set.  I do not
-accept extra credit projects, papers, etc.  (However, there is plenty
-of normal credit available in class.)
-<h4>Talk to me!</h4> If you run into difficulty with the material, if an unexpected emergency comes up which makes it hard to come to class or complete assignments, if you don't like the way I'm teaching: please tell me.  I will do all that I can to help, within the framework of fairness to your fellow students.  Generally speaking, <i>the earlier I know about a problem, the more I can do to help.</i>
+  Typically, a quiz or homework that isn't completed in time will
+  receive a zero (possibly counting as one of the "dropped"
+  assignments for each category).  The exception is when you miss
+  class due to an <i>excused absence</i>.
+  <h4>How can I qualify for an excused absence?</h4>
+  <ol>
+    <li>Have a good reason for your absence.
+    <li>Contact me <b>before the missed class begins</b>, unless
+    this is demonstrably impossible.  Contact should be via written
+    note, email, telephone, SMS, IM, etc.  Simply telling me during
+    class is not sufficient, because I will forget.  You are
+    responsible for failed communication (wrong number, lost email,
+    etc).  The sooner you let me know, the better.
+    <li>Within a week after returning to class, you must provide the
+    instructor with some sort of documentation for your absence: a
+    doctor's note, an athletic calendar, etc.  If you're not sure what
+    qualifies as documentation, we will work something out.
+  </ol>
+  <h4>What qualifies as a "good" reason?</h4>
+  They generally fall into one of four categories:
+  <ul>
+    <li><b>personal emergencies</b> (illness, death in the family, etc).
+    <li><b>religious observances</b> that prevent the student from attending
+    class
+    <li><b>college-sponsored activities</b> (including athletics); note that
+    rehearsals and practices do <i>not</i> generally count as excused
+    absences according to college policy.
+    <li><b>government-mandated activities</b>, such as jury duty or military
+    service
+  </ul>
+  If you're not sure if something counts, please don't hesitate to ask
+  me.
+  <h4>What happens if I get an excused absence?</h4>
+  <ul>
+    <li>For <b>quizzes</b>, it will be as if that quiz never existed
+    for you.  It will <i>not</i> count as one of your dropped quizzes.
+    <li>For <b>homework</b>, you will be expected to submit it as soon
+    after the class as possible.  We will work out a new due date for
+    you in that instance.  Note that you can email me your homework or
+    slide it under my door on the day it's due with no penalty.
+    <li>For <b>exams</b>, we will schedule a makeup exam in my office
+    as soon as possible.  This will either be in written or oral form,
+    at my discretion.
+  </ul>
+  <h4>What if I'm late to a quiz or exam?</h4>
+  Come anyway!  It's a lot easier to give you a little extra time,
+  than to find a whole extra hour to squeeze you in.
+  <h4>Do I have to let you know if I'm going to miss a class and
+  there's no homework or quiz that day?</h4>
+  No; attendance is not required.
 </div>
 
+<h3 class="ongoing"><a name="Schedule">Course Schedule</a></h3>
+
+<div class="section">
+We will cover the following chapters from the textbook.  
+  <ul class="schedule">
+    <li><b>Chapter 2:</b> Special Relativity
+    <li><b>Chapter 3:</b> Electromagnetic Radiation Behaving as
+    Particles
+    <li><b>Chapter 4:</b> Matter Behaving as Waves
+    <li style="list-style-type:none"><b>MIDTERM 1 will cover Chapters 2-4</b>
+    <li><b>Chapter 5:</b> Bound States
+    <li><b>Chapter 6:</b> Unbound States
+    <li><b>Chapter 9:</b> Statistical Mechanics
+    <li style="list-style-type:none"><b>MIDTERM 2 will cover Chapters
+    5, 6, and 9</b>
+    <li><b>Chapter 10 (sections 4-9):</b> Solids
+    <li><b>Chapter 11:</b> Nuclear Physics
+    <li><b>Chapter 12:</b> Fundamental Particles and Interactions
+          </ul>
+ If you're wondering about Chapters 7, 8, and the beginning of Chapter
+          10, that material will be covered in next semester's Quantum Mechanics course.
+          
+</div>
+
+
+
+<h2 style="font-weight:900;font-size:200%"><a name="Policies">Policies</a></h2>
 <h3>Academic Accommodations</h3>
 <div class="section permanent">
-TBD once I learn more about the procedures at Adrian.  Generally
-  speaking, if you have a disability and require special
-  accommodations during quizzes, exams, etc, you should let me know as
-  soon as possible.
-<!--  http://adrian.edu/admissions/incoming-student-information/disability-services/
+If you have a disability, which may affect your performance in class, let me know as soon as possible.  Students with disabilities must self-advocate.  You will need to provide recent, appropriate documentation, which verifies the need for reasonable academic accommodation.  A copy of all documents is retained by Danielle Ward in the Office of Academic Services (Jones Hall).  Email Danielle at dward@adrian.edu or ask for her in Academic Services. (Statement used with permission)
+</div>
+<h3>Academic Integrity</h3>
+<div class="section">
+  Academic Integrity Policy: 
 
-  The University of Toledo is committed to providing equal access to
-  education for all students. If you have a documented disability or
-  you believe you have a disability and would like information
-  regarding academic accommodations/adjustments in this course please
-  contact the <A HREF="http://www.utoledo.edu/offices/student-disability-services/">Student Disability Services Office</A>.-->
+<p>Cheating of any kind is a violation of the college’s Academic
+  Integrity Policy (See Student Handbook). For example, if a student
+  plagiarizes by copying the work of another person with the intention
+  of deceptively representing that work as his or her own, the student
+  will receive a zero for that assignment. The Assistant Dean of
+  Student Affairs will be informed and it will be noted on the
+  student’s permanent record.  A second offense may result in failure
+  of the course.</p>
+  <p>It is permissible to work with other students on homework
+  assignments; however, once you understand how to do the problem, you
+  should write up the solution in your own words.  Do not copy down a
+  solution that has been prepared by a group.  Exams and quizzes are to be completed with no assistance from
+  anyone else.</p>
+
 </div>
 
-
-<!--<h3>Communication Guidelines</h3>
-<div class="section optional">
-Etiquette for online discussions and email, and timeframe for responding to student's emails
+<h3>Technology in the Classroom</h3>
+<div class="section">
+You are permitted to use laptops, tablets, cellphones, etc (hereafter
+  referred to as "tech") during lectures, with the following caveats.
+<ul>
+  <li>Your tech must not bother anyone else.  Silence cellphones, and
+  make sure your screen isn't bothering or distracting anyone sitting
+  behind you.
+  <li>No tech is allowed during quizzes or exams (except calculators
+  in the latter case).  This includes headphones: no personal
+  soundtrack during exams.
+  <li>If I ask you to work with other students, refrain from checking
+  texts, email, etc, while you talk with them: that's just rude.
+  <li>If you're busily working on a paper for another class but just
+  want to sit in my class so that maybe you'll absorb information via
+  osmosis--well, I've been there.  In that case, though, I'd
+  appreciate your sitting in the back of the classroom, and giving me
+  some warning so I won't try to get your attention.
+  <li>Please don't overestimate your ability to multitask.  Studies
+  show that humans are generally a lot worse at it than we think.  If
+  you have a laptop or phone out, you're going to feel tempted to surf
+  the web or text a friend "just for a minute", and soon you've
+  completely forgotten about the class.  I've been <i>there</i>, too.  Be
+  aware of yourself, and if you are an impulsive type and can't resist
+  the allure of the Internet, put the temptation away.  You're paying
+  big bucks to be in lecture; don't squander the opportunity.
+  <li>I reserve the right to introduce a tech ban if I feel this
+  policy is being abused--e.g. if everyone is buried in their
+  cellphones while I'm trying to talk to y'all.  I'm a teacher; I like
+  attention. :)
+</ul>
+</div>
+<!--<h3><a name="Communication">Communicating with Me</a></h3>
+<div class="section">
+I will typically be on campus be 
 </div>-->
+<h3>Extra Credit?</h3>
+<div class="section">
+  There is plenty of normal credit available in class.  The only extra
+  credit available in class is the occasional extra credit problem on
+  an exam or homework set.  I do not accept extra credit projects, papers, etc.
+</div>
+<h3>Talk to Me!</h3>
+<div class="section">
+  <p>If you run into difficulty with the material, if an unexpected
+  emergency comes up which makes it hard to come to class or complete
+  assignments, if you don't like the way I'm teaching: please tell me.
+  I will do all that I can to help, within the framework of fairness
+  to your fellow students.  Generally speaking, <i>the earlier I know
+  about a problem, the more I can do to help.</i></p>
+<p>  I will usually be on campus between 10am and 5pm, Monday through
+  Friday.  I live in Toledo, but can be reached via email until 11pm.  (I receive
+  text messages via email, and am usually always logged into AOL
+  Instant Messenger; for other forms of chat it's best to email me
+  first to make sure I"m available.</p>
+<p>  My Facebook account (if you find it) is
+  private, and strictly for family and such; please don't be offended if I
+  ignore your friend request.</p>
+  </div>
+
 
 <!--<h3>Student Support Services</h3>
 <div class="section optional">
 (Tutoring Center)
 </div>-->
 
-<h3 class="ongoing"><a name="Schedule">Course Schedule</a></h3>
-
-<div class="section">
-We will cover the following chapters from the textbook.  The exact
-  timing 
-  <ul class="schedule">
-    <li><b>Chapter 2:</b> Special Relativity
-    <li><b>Chapter 3:</b> Electromagnetic Radiation Behaving as
-    Particles
-    <li><b>Chapter 4:</b> Matter Behaving as Waves
-    <li><b>Chapter 5:</b> Bound States
-    <li><b>Chapter 6:</b> Unbound States
-    <li><b>Chapter 9:</b> Statistical Mechanics
-    <li><b>Chapter 10 (sections 4-9):</b> Solids
-    <li><b>Chapter 11:</b> Nuclear Physics
-    <li><b>Chapter 12:</b> Fundamental Particles and Interactions
-          </ul>
-         
-          
-</div>
 </div><!--accordion-->

@@ -1,6 +1,0 @@
-Name: Thermal Physics
-Number: Physics 3410
-Semester: Spring 2016
-Theme: red
-Days: Monday, Wednesday, Friday
-

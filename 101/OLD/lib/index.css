@@ -9,18 +9,26 @@ body {
     font-weight: 300;
     margin-top:20px;
 }
-body {
-    background-image: url("../img/CornerSeal.png");
-    background-position:right bottom;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size:25% auto;
-background-opacity:30%;
-}
 div {
     border: 0px solid;
 }
-
+/*Utoledo Header*/
+/*Keep the colors the same*/
+div#adrian {
+    font-family: serif;
+    font-size:120%;
+    width: 100%;
+    background-color: #231F20;
+    color: #FAC723;
+    padding: 2px 5px;
+    margin-top:0px;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align:center;
+}
+#adrian a:link {color:#FAC723;}
+#adrian a:visited {color:#FAC723;}
 
 /*Class name*/
 div.class {
@@ -149,7 +157,7 @@ div#news {
     display:table-column;
     width:400px;
     margin-right:20px;
-    border:0px solid;
+    border:1px solid;
 /*    box-shadow: 5px 5px 5px                     #ccf;*/
 
 }
@@ -223,8 +231,3 @@ padding-right:10px;}
     #assignments {float:none;}
 }
 
-.ui-widget-header {background: none;
-border:0px;
-border-bottom:1px solid grey;
-}
-.ui-widget-content {background:none;border:0px;}

@@ -1,0 +1,62 @@
+div#middle>div,
+div.class #name,
+body.Syllabus #courseName
+{
+    background-color:                           #2a3;
+}
+body.Syllabus #courseNumber {
+    color: #2a3;
+}
+body {
+     background-color:                          #e8efe8;
+}
+
+
+div#professor li:nth-child(odd),
+div#assignments tr>th:nth-child(odd),
+div#assignments tr>td:nth-child(odd)
+{
+     background-color:                            #dfd;
+}
+
+div#news li:nth-child(odd),
+div#assignments tr>td:nth-child(even),
+div#assignments tr>th:nth-child(even),
+div.class,
+body.Syllabus ul.schedule li.exam,
+body.Syllabus table.gradescale tr:nth-child(3) td,
+                                           
+{
+     background-color:                            #bfb;
+}
+
+div#news li:nth-child(even) {
+	background-color:	                        #7f7;
+}
+
+div.class,
+div#professor,
+div#news,
+div#assignments,
+div#assignments table,
+#syllabus,
+#gradeframe
+{
+    box-shadow: 5px 5px 5px                     #ada;
+}
+
+
+/*current*/
+tr.current td:nth-child(odd) {
+    background-color:                           #aff !important;
+}
+tr.current td:nth-child(even) {
+    background-color:                           #bdd !important;
+}
+
+/*SYLLABUS PAGE*/
+body.Syllabus h3 {background: transparent linear-gradient(to right, rgb(153, 255, 153),
+                                            rgba(153, 255, 153,0));
+body.Syllabus h3.ongoing {
+background: transparent linear-gradient(to right, rgb(53, 255, 153), rgba(53, 255, 153,0.0));
+}

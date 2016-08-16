@@ -1,6 +1,0 @@
-Name: Quantum Mechanics
-Number: Physics 4310
-Semester: Spring 2016
-Theme: blue
-Days: Monday, Wednesday, Friday
-

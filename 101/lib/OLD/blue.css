@@ -1,0 +1,50 @@
+div#middle>div,
+div.class #name {
+    background-color:                           #23a;
+}
+body {
+     background-color:                          #eef;
+}
+
+
+div#professor li:nth-child(odd),
+div#assignments tr>th:nth-child(odd),
+div#assignments tr>td:nth-child(odd)
+{
+     background-color:                            #ddf;
+}
+
+div#news li:nth-child(odd),
+div#assignments tr>td:nth-child(even),
+div#assignments tr>th:nth-child(even),
+div.class
+{
+     background-color:                            #bbf;
+}
+
+div#news li:nth-child(even) {
+	background-color:	                        #77f;
+}
+
+div.class,
+div#professor,
+div#news,
+div#assignments,
+div#assignments table,
+#syllabus,
+#gradeframe
+{
+    box-shadow: 5px 5px 5px                     #aad;
+}
+
+#syllabus {
+    border-color: green;
+}
+
+/*current*/
+tr.current td:nth-child(odd) {
+    background-color:                           #aff !important;
+}
+tr.current td:nth-child(even) {
+    background-color:                           #bdd !important;
+}

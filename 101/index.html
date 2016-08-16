@@ -5,7 +5,8 @@
 <link rel="icon" type="image/png" href="favicon.png" />
 <link rel="stylesheet" href="lib/jquery-ui.css">
 <link rel="stylesheet" type="text/css" href="lib/index.css">
-<link rel="stylesheet" type="text/css" href="lib/blue.css">
+<link rel="stylesheet" type="text/css" href="lib/color.css">
+<link rel="stylesheet" type="text/css" href="lib/adrian.css">
 <SCRIPT SRC="lib/jquery.js"></SCRIPT>
 <SCRIPT SRC="lib/js-cookie.js"></SCRIPT>
 <!--<SCRIPT SRC="lib/grades.js"></SCRIPT>-->
@@ -29,9 +30,8 @@ activate:function(){Cookies.set("tab",$("#tabs").tabs("option","active"),{expire
 <title>Adrian College Physics 101, Fall 2016</title>
 <body>
 <DIV id="adrian">
-<A HREF="http://www.adrian.edu">Adrian&nbsp;College</A>
- <img src="img/adrianlogo.gif" alt="" height="20" style="vertical-align:middle"/>
-<A HREF="http://adrian.edu/academics/academic-departments/physics/">
+<A HREF="http://www.adrian.edu" id="adriancollege">Adrian&nbsp;College</A>
+<A HREF="http://adrian.edu/academics/academic-departments/physics/" id="deptphysics">
   Department&nbsp;of&nbsp;Physics
 </A>
 </DIV>
@@ -46,12 +46,12 @@ activate:function(){Cookies.set("tab",$("#tabs").tabs("option","active"),{expire
 <DIV id="myname">Scott A. Hill, Ph.D.</DIV>
 <DIV id="title">Assistant Professor of Physics</div>
   <UL>
-  <LI><B>Phone</B> (517) 265-5161
+  <LI><B>Phone</B> x4578
   <LI><B>SMS</B> (567) 343-2284
   <LI><B>Email</B> shill@adrian
   <LI><B>AIM</B> doogadgit
   <LI><B>Google Chat</B> physhill
-  <LI><B>Office</B> Peelle 2xx
+  <LI><B>Office</B> Peelle 208
 </UL>
 </DIV>
 <br/>
@@ -70,13 +70,13 @@ activate:function(){Cookies.set("tab",$("#tabs").tabs("option","active"),{expire
 <div style="margin-top: 20px" id="tabs"><ul>
 <li><a href="#news">News</a></li>
 <li><a href="#assignments">Weekly Assignments</a></li>
-<li><a href="#grades">Grades</a></li>
+<li><a href="#chat">Chat</a></li>
 </ul><div id="news">
 <h2>News</h2><ul>
 
 <li>
 <DIV class="updated">Posted 7/18:</DIV>
- Welcome to Physics 101!
+ Welcome to Physics 101!  The website is still under construction....
 </ul></div>
 <div id="assignments">
 <div id="weekly">
@@ -109,5 +109,5 @@ activate:function(){Cookies.set("tab",$("#tabs").tabs("option","active"),{expire
 	&nbsp;
 </TABLE></DIV>
 </div>
-<div id="grades">
-<iframe width="100%" height="400px" src="http://sahill.nfshost.com/Grades/101/index.html"></iframe></div></div>
+<div id="chat">
+<iframe src="http://hillbook.nfshost.com/Chat/index.html"></iframe></div></div>
